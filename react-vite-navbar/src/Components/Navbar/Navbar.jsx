@@ -3,8 +3,24 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-        <h1>Navbar</h1>
+    <div className="navbar">
+
+       <img src="" alt="" className="logo"/>
+
+       <ul>
+        <li>Home</li>
+        <li>Products</li>
+        <li>Fetaures</li>
+        <li>About</li>
+       </ul>
+
+       <div className="search-box">
+        <input type="text" placeholder='Search'/>
+        <img src="" alt="" />
+       </div>
+
+       <img src="" alt="" className="toggle-icon"/>
+
     </div>
   )
 }
